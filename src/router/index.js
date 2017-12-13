@@ -1,13 +1,17 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import banner from '@/components/banner'
+import MainPage from '@/pages/MainPage'
 Vue.use(Router)
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'banner',
-      component: banner
+      redirect: '/index'
+    },
+    {
+      path: '/index',
+      name: 'MainPage',
+      component: MainPage
     }
   ]
 })
