@@ -14,9 +14,9 @@ export default {
   mounted() {
     $("#imgBar").slider({
       imgs: [
-        "http://image.lovefay1994.com/banner/banner01.jpg",
-        "http://image.lovefay1994.com/banner/banner02.jpg",
-        "http://image.lovefay1994.com/banner/banner03.jpg",
+        "http://image.jonyjay.com/banner/banner01.jpg",
+        "http://image.jonyjay.com/banner/banner02.jpg",
+        "http://image.jonyjay.com/banner/banner03.jpg",
       ],
       scale: 128 / 36,
       border: true,
