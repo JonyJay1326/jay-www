@@ -57,7 +57,7 @@ export default {
   min-height: 100vh;
 
   .content__inner {
-    background-color: #f0f0f0;
+    background-color: #282828;
   }
 
   main {
@@ -68,7 +68,7 @@ export default {
   }
 
   .content__title {
-    color: #214243;
+    color: #f0f0f0;
     font-family: 'Comic Sans MS', 'Helvetica Neue', 'Microsoft Yahei', 'Microsoft Yahei', -apple-system, sans-serif;
     font-size: 64px;
     font-weight: 600;
@@ -76,15 +76,18 @@ export default {
   }
 
   .content__subtitle {
+    color: #f0f0f0;
     font-family: 'Comic Sans MS', 'Helvetica Neue', 'Microsoft Yahei', 'Microsoft Yahei', -apple-system, sans-serif;
     font-size: 24px;
   }
 
   .enter {
+    color: #f0f0f0;
     font-size: 20px;
   }
 
   .animated {
+
     -webkit-animation-duration: 3s;
     animation-duration: 3s;
     -webkit-animation-fill-mode: both;

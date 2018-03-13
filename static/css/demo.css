@@ -5,65 +5,15 @@
 }
 
 /* Color schemes */
-.demo-1 {
-  --color-text: #fff;
-  --color-link: #5f5f5f;
-  --color-link-hover: #ff963b;
-  --color-enter: #fff;
-  --color-title: #fff;
-  --color-subtitle: #5f5f5f;
-  --color-menu-item: #000;
-  --color-menu-item-hover: #ff963b;
-  --color-menu-item-hover-alt: #8544da;
-  --color-content: #222325;
-  --color-content-fixed: #ddd;
-  --font-alt: 200 6vw/1 'Spectral', serif;
-  --color-next: #5f5f5f;
-  --color-next-hover: #8544da;
-}
 
-.demo-2 {
-  --color-text: #fff;
-  --color-link: #002068;
-  --color-link-hover: #d8d1d1;
-  --color-enter: #ecec11;
-  --color-title: #ffffff;
-  --color-subtitle: #002068;
-  --color-menu-item: #fff;
-  --color-menu-item-hover: #000;
-  --color-menu-item-hover-alt: #000;
-  --color-content: #013bbb;
-  --color-content-fixed: #ddd;
-  --font-alt: 400 6vw/1 'Fugaz One', serif;
-  --color-next: #fff;
-  --color-next-hover: #000;
-}
-
-.demo-3 {
-  --color-text: #fff;
-  --color-link: #4c0a75;
-  --color-link-hover: #f470d2;
-  --color-enter: #f470d2;
-  --color-title: #ffffff;
-  --color-subtitle: #4c0a75;
-  --color-menu-item: #000;
-  --color-menu-item-hover: #4c0a75;
-  --color-menu-item-hover-alt: #8544da;
-  --color-content: #ffb4ec;
-  --color-content-fixed: #ddd;
-  --font-alt: 400 6vw/1 'Chewy', serif;
-  --color-next: #fff;
-  --color-next-hover: #000;
-}
-
-.demo-4 {
+#fullpage {
   --color-text: #4b2cf2;
   --color-link: #ec2525;
   --color-link-hover: #fff;
   --color-enter: #4b2cf2;
   --color-title: #ffffff;
   --color-subtitle: #ec2525;
-  --color-content: #1c1b1b;
+  --color-content: #282828;
   --font-alt: 400 5vw/1 'Poppins', serif;
 }
 
