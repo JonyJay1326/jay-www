@@ -32,10 +32,13 @@
         navigate();
       }
     }
+
 	};
 
 	var loaded = void 0;
 	var navigate = function navigate() {
+    $('.main-content').addClass("animated bounceInUp")
+
 		if (loaded) return;
 		loaded = true;
 
