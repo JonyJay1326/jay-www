@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Jay's Personal Center</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/slider.min.css">
+    <style>
+        #imgBar {
+            margin: 0 auto;
+            width: 1280px;
+        }
+    </style>
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=65243364" charset="UTF-8"></script>
+
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?43e9cb21b89404fa0fab578451f38787";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+
+<body>
+    <div id="imgBar">
+    </div>
+</body>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/imagesloaded.pkgd.min.js"></script>
+<script src="../js/slider.min.js"></script>
+
+<script>
+    $(function () {
+        $("#imgBar").slider({
+            imgs: [
+                "http://image.jonyjay.com/banner/banner01.jpg",
+                "http://image.jonyjay.com/banner/banner02.jpg",
+                "http://image.jonyjay.com/banner/banner03.jpg",
+            ],
+            scale: 128 / 36,
+            border: true,
+            delay: 2200,
+            x: 10,
+            y: 3
+        });
+    })
+</script>
+
+</html>
