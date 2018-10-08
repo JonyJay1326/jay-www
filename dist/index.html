@@ -150,11 +150,6 @@
   const cval = getCookie(name);
   if (cval != null) { document.cookie = name + '=' + cval + ';expires=' + exp.toGMTString(); }
 }
-setCookie('name','jonyjay');
-console.log(getCookie('name'));
-if(getCookie('name')){
-  window.alert("获取到Cookie");
-}
 
 </script>  
 </html>
