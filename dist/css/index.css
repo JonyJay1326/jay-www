@@ -2,6 +2,9 @@
   min-height: 100vh; }
   #fullpage .content__inner {
     background-color: #282828; }
+  #fullpage .more {
+    height: 16px;
+    line-height: 16px; }
   #fullpage main {
     height: 100vh;
     width: 100%;
