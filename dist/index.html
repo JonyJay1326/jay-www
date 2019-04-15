@@ -82,7 +82,7 @@
                 <div class="progress-bar progress-bar-info progress-bar-striped active" style="width:80%;"></div>
               </div>
 
-              <h3 class="progress-title">J-Query - 70%</h3>
+              <h3 class="progress-title">JQuery - 70%</h3>
               <div class="progress">
                 <div class="progress-bar progress-bar-warning progress-bar-striped active" style="width:70%;"></div>
               </div>
@@ -91,7 +91,10 @@
               <div class="progress">
                 <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:70%;"></div>
               </div>
-
+              <h3 class="progress-title">小程序 - 50%</h3>
+              <div class="progress">
+                <div class="progress-bar progress-bar-new02 progress-bar-striped active" style="width:50%;"></div>
+              </div>
               <h3 class="progress-title">Python - 20%</h3>
               <div class="progress">
                 <div class="progress-bar progress-bar-new01 progress-bar-striped active" style="width:20%;"></div>
@@ -102,7 +105,7 @@
 
         <ul>
           <li>
-            <a target="_blank" href="https://github.com/JonyJay1326">Github</a>
+            <a class="weApp" target="_blank" href="http://image.jonyjay.com/weapp.jpg">WeApp</a>
           </li>
           <li>
             <a target="_blank" href="http://blog.jonyjay.com">MyBlog</a>
@@ -115,7 +118,7 @@
           </li>
         </ul>
 
-        
+
       </div>
 
   </div>
@@ -129,27 +132,5 @@
 <script src="js/anime.min.js"></script>
 <script src="js/demo.js"></script>
 <script>
- function getCookie(name) {
-  let arr = [];
-  const reg = new RegExp('(^| )' + name + '=([^;]*)(;|$)');
-  arr = document.cookie.match(reg);
-  if (arr && arr.length) { return (arr[2]); } else { return null; }
-}
-
-// 设置cookie,增加到vue实例方便全局调用
- function setCookie(c_name, value, expiredays) {
-  const exdate = new Date();
-  exdate.setDate(exdate.getDate() + expiredays);
-  document.cookie = c_name + '=' + escape(value) + ((expiredays == null) ? '' : ';expires=' + exdate.toGMTString());
-}
-
-// 删除cookie
- function delCookie(name) {
-  const exp = new Date();
-  exp.setTime(exp.getTime() - 1);
-  const cval = getCookie(name);
-  if (cval != null) { document.cookie = name + '=' + cval + ';expires=' + exp.toGMTString(); }
-}
-
-</script>  
+</script>
 </html>
